@@ -1,0 +1,59 @@
+body
+{ display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: white;}
+
+header 
+{border: solid 1px rgb(5, 5, 5);
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+#gmail { border-width: 30px;}
+
+#appli { border-width: solid 100px white;
+    border-bottom: solid 200px white ;
+    height: 150;
+    width: 272; }
+
+section
+{ border-bottom: solid 357px white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+  #Subsearch {border-bottom: 300px;}    
+
+
+footer
+{
+    background-color: rgba(255, 254, 254, 0.493);
+border-bottom: solid 20px white;
+    display: flex;
+    flex-direction: column;
+
+}
+        #footfoot       { 
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;}
+
+             #footgauche { word-spacing: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;}
+
+
+            #footdroite {word-spacing: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+            }
+
+
+
+
+
