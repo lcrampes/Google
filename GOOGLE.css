@@ -1,40 +1,152 @@
-body
-{ display: flex;
-flex-direction: column;
-justify-content: space-between;
-background-color: white;}
+body { 
+    display: flex;
+         flex-direction: column;
+        justify-content: space-between;
+        background-color: white;}
 
-header 
-{border: solid 1px rgb(5, 5, 5);
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-}
-#gmail { border-width: 30px;}
+header { 
+    display: grid;
+        grid-template-columns:5px;
+        grid-gap: 15px;
 
-#appli { border-width: solid 100px white;
-    border-bottom: solid 200px white ;
-    height: 150;
-    width: 272; }
+
+    border-top:  solid 10px white;
+
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-end;}
+
+         #gmail { 
+                display: inline-block;
+                 line-height: 24px;
+                vertical-align: middle;
+                color: black;
+                 text-decoration: none;
+                 font-family:Arial, Helvetica, sans-serif;
+                font-size: 13px; }
+
+        #images {   
+                display: inline-block;
+                 line-height: 24px;
+                 vertical-align: middle;
+                color: black;
+                text-decoration: none;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 13px;}
+
+        #appli { 
+                border-width: solid 100px white;
+                border-bottom: solid 100px white ;
+                height: 150;
+                width: 272; }
+
+        #button { 
+                cursor: pointer;
+                border: none;
+                background-color: #1a73e8;
+                color:white;
+                box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+                margin-left: 8px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: 0.25px;
+                line-height: 16px;
+                margin-right: 8px;
+                min-width: 96px;
+                padding: 9px 23px;
+                border-radius: 4px;
+                 box-sizing: border-box; }
 
 section
-{ border-bottom: solid 357px white;
+{ border-bottom: solid 200px white;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+
 }
 
-  #Subsearch {border-bottom: 300px;}    
 
+         #logo {
+                 object-fit: contain;
+                object-position: center;
+                width: auto;
+                height: auto;
+                width: 400px; ; 
+            border-bottom: solid white;}
+
+        #searchbar {
+            background: #fff;
+            display: flex;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            z-index: 3;
+            height: 44px;
+            margin: 0 auto;
+            width: 800px;
+            max-width: 584px; }
+            
+        #Subsearch { 
+            display: block;
+            border-top: solid 30px white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center; }
+            
+            
+            #sub1 { 
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none}
+
+            #sub2 { 
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+
+            }
+            
+       
 
 footer
 {
-    background-color: rgba(255, 254, 254, 0.493);
-border-bottom: solid 20px white;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(206, 202, 202);
 
+    display: flex;
+        flex-direction: column;
+
+}
+
+#France { border-bottom: solid 0.5px grey;
+    border-top: solid 5px rgb(206, 202, 202);
+display: grid; 
+grid-template-columns: 5px;
+grid-gap: 10px ;
 }
         #footfoot       { 
                         display: flex;
