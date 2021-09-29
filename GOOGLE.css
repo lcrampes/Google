@@ -138,15 +138,17 @@ footer
     color:#70757A;
     width: auto;
     font-size: 15px;
+    
 
 }
 
-#France {
-    border-top: solid 16px rgb(242, 242, 242);
-display: grid; 
-grid-template-columns: 5px;
-grid-gap: 10px ;
+        #France {
+                         border-top: solid 16px rgb(242, 242, 242);
+                        display: grid; 
+                            grid-template-columns: 5px;
+                            grid-gap: 10px ;
 }
+
         #footfoot       { 
                         display: flex;
                         flex-direction: row;
