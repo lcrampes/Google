@@ -59,7 +59,7 @@ header {
                  box-sizing: border-box; }
 
 section
-{ border-bottom: solid 210px white;
+{ border-bottom: solid 200px white;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -131,15 +131,18 @@ align-items: center;
 
 footer
 {
-    background-color: rgb(206, 202, 202);
-    border-bottom: solid 5px rgb(206, 202, 202);
-    display: flex;
+    background-color: rgb(242, 242, 242);
+    border-bottom: solid 5px rgb(242, 242, 242);
         flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#70757A;
+    width: auto;
+    font-size: 15px;
 
 }
 
-#France { border-bottom: solid 0.5px grey;
-    border-top: solid 12px rgb(206, 202, 202);
+#France {
+    border-top: solid 16px rgb(242, 242, 242);
 display: grid; 
 grid-template-columns: 5px;
 grid-gap: 10px ;
